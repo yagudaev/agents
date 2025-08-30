@@ -1,4 +1,4 @@
-While the concerns surrounding large language models (LLMs) are valid, instating strict laws to regulate them poses significant risks that could stifle innovation, limit access, and perpetuate inequalities in technology. 
+While the concerns surrounding large language models (LLMs) are valid, instating strict laws to regulate them poses significant risks that could stifle innovation, limit access, and perpetuate inequalities in technology.
 
 Firstly, strict regulations can hinder the rapid pace of technological advancement. Innovation thrives on flexibility and creativity; imposing stringent rules may lead to a stagnation in developing new models and applications. History has shown us that over-regulation can curb progress in burgeoning fields, reducing the potential benefits of LLMs for society.
 

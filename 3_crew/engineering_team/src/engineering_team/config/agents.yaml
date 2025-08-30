@@ -11,7 +11,6 @@ engineering_lead:
     You're a seasoned engineering lead with a knack for writing clear and concise designs.
   llm: gpt-4o
 
-
 backend_engineer:
   role: >
     Python Engineer who can write code to achieve the design described by the engineering lead

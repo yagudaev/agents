@@ -25,4 +25,4 @@ Flight Deals from JFK to LHR - June 2025:
    - Non-stop
    - Great onboard experience
 
-Best Deal: JetBlue at $314 for a non-stop flight from JFK to LHR. 
+Best Deal: JetBlue at $314 for a non-stop flight from JFK to LHR.

@@ -3,6 +3,7 @@
 ## Quick Deploy to Hugging Face Spaces
 
 ### Option 1: Direct Upload
+
 1. **Create a new Space** on [Hugging Face Spaces](https://huggingface.co/spaces)
 2. **Choose "Gradio" as the SDK**
 3. **Upload these files** from the `deep_research` folder:
@@ -14,6 +15,7 @@
    - All the agent files (`*_agent.py`, `research_manager.py`)
 
 ### Option 2: Git Repository
+
 1. **Create a new repository** or fork this one
 2. **Copy the `deep_research` folder contents** to the root of your repository
 3. **Create a new Space** and connect it to your repository
@@ -23,9 +25,11 @@
 In your Hugging Face Space settings, add these secrets:
 
 ### Required
+
 - `OPENAI_API_KEY`: Your OpenAI API key
 
 ### Optional (for email functionality)
+
 - `SENDGRID_API_KEY`: Your SendGrid API key
 - `SENDGRID_FROM_EMAIL`: Your verified sender email
 
@@ -59,14 +63,17 @@ your-space/
 ## Common Issues & Solutions
 
 ### Import Errors
+
 - Make sure all agent files are in the same directory
 - Verify `openai-agents` package is installed correctly
 
 ### API Key Issues
+
 - Check that environment variables are set correctly in HF Spaces
 - Ensure OpenAI API key has sufficient credits
 
 ### Email Functionality
+
 - Email features are optional and will be disabled if SendGrid isn't configured
 - Verify your SendGrid sender email is verified
 
@@ -79,7 +86,8 @@ your-space/
 ## Support
 
 If you encounter issues:
+
 1. Check the Space logs in Hugging Face
 2. Verify all environment variables are set
 3. Test locally first to isolate the issue
-4. Check OpenAI API status and quotas 
+4. Check OpenAI API status and quotas

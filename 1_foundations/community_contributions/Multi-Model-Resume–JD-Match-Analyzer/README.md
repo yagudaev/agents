@@ -34,15 +34,15 @@ OPENAI_API_KEY=your-openai-api-key
 ANTHROPIC_API_KEY=your-anthropic-api-key
 GOOGLE_API_KEY=your-google-api-key
 GROQ_API_KEY=your-groq-api-key
-DEEPSEEK_API_KEY=your-deepseek-api-key 
+DEEPSEEK_API_KEY=your-deepseek-api-key
 ```
 
 ## ▶️ Running the App
+
 ### Launch the app using Streamlit:
 
 streamlit run resume_agent.py
 
 ### The app will open in your browser at:
+
 📍 http://localhost:8501
-
-

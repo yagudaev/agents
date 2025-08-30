@@ -1,4 +1,5 @@
 ### Setup environment variables
+
 ---
 
 ```md
@@ -10,27 +11,36 @@ REQUEST_TOKEN=<any-token>
 ```
 
 ### Installation
+
 1. Clone the repo
+
 ---
+
 ```cmd
 git clone httsp://github.com/ken-027/agents.git
 ```
 
 2. Create and set a virtual environment
+
 ---
+
 ```cmd
 python -m venv agent
 agent\Scripts\activate
 ```
 
 3. Install dependencies
+
 ---
+
 ```cmd
 pip install -r requirements.txt
 ```
 
 4. Run the app
+
 ---
+
 ```cmd
 cd 1_foundations/community_contributions/openai_chatbot_k && py app.py
 or

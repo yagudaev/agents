@@ -10,7 +10,8 @@ Steps:
 4. Copy the webhook URL.
 5. Replace pushover environment variables with `DISCORD_WEBHOOK_URL`.
 
-Just instead of 
+Just instead of
+
 ```py
 requests.post(
         "https://api.pushover.net/1/messages.json",
@@ -22,7 +23,8 @@ requests.post(
     )
 ```
 
-We use 
+We use
+
 ```py
 discord_webhook_url = os.getenv("DISCORD_WEBHOOK_URL")
 

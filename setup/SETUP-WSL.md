@@ -1,4 +1,4 @@
-## Master AI Agentic Engineering -  build autonomous AI Agents
+## Master AI Agentic Engineering - build autonomous AI Agents
 
 # Setting up WSL - Windows Subsytem for Linux
 
@@ -29,7 +29,7 @@ It's important to appreciate the difference between your Windows home directory,
 
 ### Part 2: Install uv and repo
 
-1. From a powershell, run `ubuntu` - note that it's important to do `ubuntu` rather than `wsl` because it starts you in your Linux home directory  
+1. From a powershell, run `ubuntu` - note that it's important to do `ubuntu` rather than `wsl` because it starts you in your Linux home directory
 2. Then follow the linux instructions here: https://docs.astral.sh/uv/getting-started/installation/ and run `curl -LsSf https://astral.sh/uv/install.sh | sh`
 3. After that completes, you need to type `exit` to leave WSL and return to the Powershell and then type `ubuntu` to return to Linux, in order that changes to PATH are picked up
 4. Now type `pwd` to check you're in your Linux home directory. If in doubt, `cd ~` and `ls` to check.

@@ -1,7 +1,7 @@
 requirements_analyst:
   role: >
-     An expert {business} analyst who specializes in understanding and translating
-     {business} requirements into technical specifications for database design.
+    An expert {business} analyst who specializes in understanding and translating
+    {business} requirements into technical specifications for database design.
   goal: >
     Gather, analyze, and structure business requirements into a clear set of entities,
     attributes, and relationships that form the foundation for schema design.

@@ -32,14 +32,17 @@ This folder contains an alternative implementation of the deep research system t
 ## Usage
 
 ### Option 1: Quick Launch (Recommended)
+
 ```bash
 cd /path/to/deep_research
-python launch_pushover_ui.py  
+python launch_pushover_ui.py
 #if you're using UV, you can use `uv run launch_pushover_ui.py`
 ```
+
 This will validate your setup and launch the web interface automatically.
 
 ### Option 2: Direct Launch
+
 ```bash
 cd /path/to/deep_research
 python deep_research_pushover.py
@@ -47,6 +50,7 @@ python deep_research_pushover.py
 ```
 
 ### Option 3: Import the notification agent
+
 ```python
 from pushover_notification_agent import notification_agent
 from agents import Runner
@@ -66,13 +70,16 @@ result = await Runner.run(notification_agent, "Your research report content here
 ## Features
 
 ### Smart Content Cleaning
+
 The Pushover agent automatically:
+
 - Removes HTML tags
 - Removes markdown formatting (headers, bold, italic)
 - Cleans up excessive newlines
 - Truncates long reports (>900 chars) with a notice
 
 ### Error Handling
+
 - Returns success/error status
 - Includes error details for debugging
 - Prints response status to console

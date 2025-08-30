@@ -92,6 +92,7 @@ TIMEZONE_OFFSET=+05:30
 1. **Enable the Calendar API** in Google Cloud Console.
 2. Download your OAuth **client_secrets** file and save as `credentials.json` in the root.
 3. Run this script once to authorize and generate `token.json`:
+
    ```python
    from google_auth_oauthlib.flow import InstalledAppFlow
 
@@ -101,6 +102,7 @@ TIMEZONE_OFFSET=+05:30
    with open("token.json", "w") as token:
        token.write(creds.to_json())
    ```
+
 4. Confirm `token.json` is present alongside `credentials.json`.
 
 ---

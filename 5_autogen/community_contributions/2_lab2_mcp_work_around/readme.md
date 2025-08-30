@@ -6,7 +6,7 @@ Running MCP-based tools in **Jupyter Notebook** on Windows often causes this err
 
 UnsupportedOperation: fileno
 
-````
+```
 
 This is due to limitations in how subprocesses and `fileno()` work inside notebook environments on Windows.
 
@@ -24,7 +24,7 @@ Run the following command **in a new terminal**:
 
 ```bash
 uvx mcp-server-fetch
-````
+```
 
 This launches the MCP server in stdio mode (no need for extra flags). Keep this terminal open.
 
@@ -58,7 +58,7 @@ TERMINATE
 
 ### 💡 Notes
 
-* You **must** start the MCP server before running the Python script.
-* This workaround avoids subprocess issues that commonly occur in Windows Jupyter environments.
+- You **must** start the MCP server before running the Python script.
+- This workaround avoids subprocess issues that commonly occur in Windows Jupyter environments.
 
 ---

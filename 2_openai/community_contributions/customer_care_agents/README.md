@@ -19,11 +19,13 @@ uv add google-adk pandas
 ```
 
 ### 2. Set Up Environment Variables
+
 Create a .env file in the root of the project using the provided .env-example as a template:
 
 ```bash
 cp .env-example .env
 ```
+
 Fill in the required API keys and configuration values inside the .env file.
 
 ### 3. Run the Web Interface
@@ -39,10 +41,10 @@ uv run adk web
 ```
 
 ### 4. Interact with the Agent
+
 You can now access the web interface and interact with the AI customer care agent. Ask questions about the perfume products, and the agent will respond based on the generated dataset.
 
 📁 Notes
 The product data is randomly generated each run, but you can export it to Excel.
 
 You can reload the saved Excel file into a DataFrame to cross-check the accuracy of the agent's answers.
-

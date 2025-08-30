@@ -9,7 +9,6 @@ A lightweight chatbot app that uses LangChain RAG for chunk retrieval, OpenAI fo
 - ✅ Gemini-based evaluator checks tone + accuracy
 - 🛠️ Records user emails to Google Sheets or CSV fallback
 
-
 ## 🚀 Setup
 
 1. Clone the repo:
@@ -33,10 +32,9 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 2. Keys in `.env` file:
+
 ```
    GOOGLE_API_KEY=<your-api-key>
    OPENAI_API_KEY=<your-api-key>
    GOOGLE_CREDENTIALS_JSON=<b64encoded-json>
 ```
-
-

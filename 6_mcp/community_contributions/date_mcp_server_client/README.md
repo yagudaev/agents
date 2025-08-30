@@ -3,14 +3,17 @@
 A minimal Model Context Protocol (MCP) server that exposes a single tool `current_date` returning today's date in ISO format, and a matching client that lists tools and invokes it.
 
 ## Files
+
 - `date_server.py`: MCP server exposing `current_date`
 - `date_client.py`: Client helpers using stdio to connect via `uv`
 - `date_tutorial.ipynb`: Walkthrough notebook to try it end-to-end
 
 ## Prereqs
+
 - `uv` available on your PATH
 
 ## Quickstart
+
 ```bash
 cd 6_mcp/community_contributions/date_mcp_server_client
 uv run python - << 'PY'
@@ -33,5 +36,3 @@ PY
 ```
 
 You can also open the `date_tutorial.ipynb` notebook and run the cells.
-
-

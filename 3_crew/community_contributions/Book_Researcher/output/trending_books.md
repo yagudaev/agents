@@ -2,30 +2,35 @@ Here is the collected data concerning trending book titles for 2025, including n
 
 ## Trending Book Titles for 2025
 
-### 1. *Great Big Beautiful Life* by Emily Henry  
-   - **Release Date**: August 5, 2025  
-   - **Genre**: Contemporary Fiction  
-   - **Notes**: This novel explores themes of hope and resilience, with Henry's characteristic humor and heart.
+### 1. _Great Big Beautiful Life_ by Emily Henry
 
-### 2. *Katabasis* by R.F. Kuang  
-   - **Release Date**: March 25, 2025  
-   - **Genre**: Fantasy  
-   - **Notes**: A genre-defying narrative that tackles issues of mortality and desire with an immersive world-building experience.
+- **Release Date**: August 5, 2025
+- **Genre**: Contemporary Fiction
+- **Notes**: This novel explores themes of hope and resilience, with Henry's characteristic humor and heart.
 
-### 3. *Bury Our Bones in the Midnight Soil* by Victoria E. Schwab  
-   - **Release Date**: July 27, 2025  
-   - **Genre**: Supernatural Fiction  
-   - **Notes**: This title promises thrilling elements of the supernatural intertwined with emotional depth and character-driven storytelling.
+### 2. _Katabasis_ by R.F. Kuang
 
-### 4. *The Ballad of Falling Dragons* by Sarah A Parker  
-   - **Release Date**: October 7, 2025  
-   - **Genre**: Fantasy  
-   - **Notes**: A richly illustrated adventure exploring complex relationships and the horror of war set in a dragon-infested world.
+- **Release Date**: March 25, 2025
+- **Genre**: Fantasy
+- **Notes**: A genre-defying narrative that tackles issues of mortality and desire with an immersive world-building experience.
 
-### 5. *Playworld* by Adam Ross  
-   - **Release Date**: January 15, 2025  
-   - **Genre**: Fiction  
-   - **Notes**: A contemporary story about the digital age and its impact on human interaction, blending dramatic elements with humor.
+### 3. _Bury Our Bones in the Midnight Soil_ by Victoria E. Schwab
+
+- **Release Date**: July 27, 2025
+- **Genre**: Supernatural Fiction
+- **Notes**: This title promises thrilling elements of the supernatural intertwined with emotional depth and character-driven storytelling.
+
+### 4. _The Ballad of Falling Dragons_ by Sarah A Parker
+
+- **Release Date**: October 7, 2025
+- **Genre**: Fantasy
+- **Notes**: A richly illustrated adventure exploring complex relationships and the horror of war set in a dragon-infested world.
+
+### 5. _Playworld_ by Adam Ross
+
+- **Release Date**: January 15, 2025
+- **Genre**: Fiction
+- **Notes**: A contemporary story about the digital age and its impact on human interaction, blending dramatic elements with humor.
 
 ## Key Insights
 
@@ -34,6 +39,7 @@ Here is the collected data concerning trending book titles for 2025, including n
 - **Market Trends**: Themes of resilience, supernatural elements, and social commentary are increasingly popular among readers.
 
 ## Sources
+
 - [Goodreads - 2025 Releases](https://www.goodreads.com/shelf/show/2025-releases)
 - [Best of Books - Upcoming Titles](https://bestofbooksok.com/list/coming-2025)
 - [Turning Pages - Anticipated Releases](https://medium.com/turning-pages/10-new-books-that-should-be-on-your-radar-86efd581a657)

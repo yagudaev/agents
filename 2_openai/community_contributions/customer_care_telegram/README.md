@@ -6,11 +6,11 @@ This project is a continuation of the previous **Customer Care Agent**. The exci
 
 ## ✅ Features
 
-* ✅ It can answer normal user queries related to your brand or data
-* ✅ It can interact with your actual database to get the most relevant and up-to-date data
-* ✅ It can take an order from a user and place it in your database
-* ✅ It can email users with their order summary
-* ✅ Users can check their order status
+- ✅ It can answer normal user queries related to your brand or data
+- ✅ It can interact with your actual database to get the most relevant and up-to-date data
+- ✅ It can take an order from a user and place it in your database
+- ✅ It can email users with their order summary
+- ✅ Users can check their order status
 
 ---
 
@@ -50,8 +50,8 @@ with the name of your actual Google Sheet.
 
 You need to create **two sheets** inside your Google Spreadsheet:
 
-* `products`
-* `orders`
+- `products`
+- `orders`
 
 You can download and upload this sample sheet to get started quickly:
 

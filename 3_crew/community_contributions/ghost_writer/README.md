@@ -4,8 +4,6 @@
 
 [**Ghost Writer**](https://github.com/DeanPhillipsOKC/ghost_writer) is a modular, multi-agent AI framework built on top of [crewAI](https://crewai.com). It enables the orchestration of multiple AI agents to collaboratively tackle complex tasks, maximizing efficiency and intelligence through structured collaboration.
 
-
-
 ![Ghost Writer](./assets/ghost_writer_logo.png)
 
 ## 🚀 Features

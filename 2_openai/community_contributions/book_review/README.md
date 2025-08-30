@@ -29,10 +29,11 @@ A Gradio-based chat interface that helps review book proposals using AI. The app
    ```
 3. Place your book proposal PDF file named `book_proposal.pdf` in the same directory as the script
 4. Install the required dependencies using uv:
+
    ```bash
    # Install uv if you haven't already
    curl -LsSf https://astral.sh/uv/install.sh | sh
-   
+
    # Install dependencies
    uv pip install openai gradio pypdf python-dotenv
    ```
@@ -69,6 +70,7 @@ A Gradio-based chat interface that helps review book proposals using AI. The app
 ## Error Handling
 
 The application includes error handling for:
+
 - Missing PDF file
 - PDF reading errors
 - API connection issues

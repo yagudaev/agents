@@ -5,14 +5,15 @@ This project demonstrates a simple, modular workflow for orchestrating multiple 
 ## Workflow Overview
 
 ![image](images/workflow.png)
+
 1. **User Input**: The user provides a request (e.g., a math problem, translation, or text to summarize).
 2. **Router LLM**: A general-purpose LLM analyzes the input and decides which specialized LLM (math, translation, or summarization) should handle it.
 3. **Specialized LLMs**: Each task (math, translation, summarization) is handled by a dedicated prompt to the LLM.
 4. **Evaluator-Optimizer Loop**:
-    - The solution from the specialized LLM is evaluated by an evaluator LLM.
-    - If the evaluator deems the solution incorrect or unhelpful, it provides feedback.
-    - The generator LLM retries with the feedback, up to 3 attempts.
-    - If accepted, the result is returned to the user.
+   - The solution from the specialized LLM is evaluated by an evaluator LLM.
+   - If the evaluator deems the solution incorrect or unhelpful, it provides feedback.
+   - The generator LLM retries with the feedback, up to 3 attempts.
+   - If accepted, the result is returned to the user.
 
 ## Key Components
 
@@ -21,6 +22,7 @@ This project demonstrates a simple, modular workflow for orchestrating multiple 
 - **Evaluator-Optimizer**: Uses a Pydantic schema and OpenAI's structured output to validate and refine the solution, ensuring quality and correctness.
 
 ## Technologies Used
+
 - Python 3.8+
 - [OpenAI Python SDK (v1.91.0+)](https://github.com/openai/openai-python)
 - [Pydantic](https://docs.pydantic.dev/)
@@ -49,11 +51,10 @@ This project demonstrates a simple, modular workflow for orchestrating multiple 
 The router will direct your request to the appropriate LLM, and the evaluator will ensure the answer is correct or provide feedback for improvement.
 
 ## Notes
+
 - The workflow is designed for learning and can be extended with more tasks or more advanced routing/evaluation logic.
 - The evaluator uses OpenAI's structured output (with Pydantic) for robust, type-safe validation.
 
 ---
 
 Feel free to experiment and expand this workflow for your own LLM projects!
-
-

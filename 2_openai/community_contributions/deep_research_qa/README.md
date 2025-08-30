@@ -4,6 +4,7 @@ app_file: app.py
 sdk: gradio
 sdk_version: 5.29.0
 ---
+
 # 🔍 Deep Research Assistant
 
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces)
@@ -14,6 +15,7 @@ A comprehensive AI-powered research assistant that delivers high-quality, well-r
 ## 🚀 Features
 
 ### 🤖 Enhanced AI Research System
+
 - **Quality Evaluation**: Every report is automatically assessed for completeness, accuracy, and clarity
 - **Smart Optimization**: Reports scoring below 7/10 are automatically improved
 - **Multi-Strategy Search**: Uses multiple search approaches for comprehensive coverage
@@ -63,17 +65,20 @@ SENDGRID_FROM_EMAIL=your_verified_sender_email@example.com
 ### For Local Development
 
 1. **Clone the repository**:
+
    ```bash
    git clone <your-repo-url>
    cd deep_research
    ```
 
 2. **Install dependencies**:
+
    ```bash
    pip install -r requirements.txt
    ```
 
 3. **Set up environment variables**:
+
    ```bash
    cp .env.example .env
    # Edit .env with your API keys
@@ -89,13 +94,15 @@ SENDGRID_FROM_EMAIL=your_verified_sender_email@example.com
 Our enhanced research system includes automatic quality evaluation:
 
 ### Evaluation Criteria
+
 - **Completeness**: How thoroughly the query is addressed
-- **Accuracy**: Factual correctness and source reliability  
+- **Accuracy**: Factual correctness and source reliability
 - **Clarity**: Writing quality and organization
 - **Depth**: Analysis depth and insight quality
 - **Relevance**: Content alignment with the original query
 
 ### Scoring Scale
+
 - **9-10**: Excellent (no refinement needed)
 - **7-8**: Good (minor improvements)
 - **5-6**: Adequate (refinement recommended)
@@ -110,7 +117,7 @@ Our enhanced research system includes automatic quality evaluation:
    - Use "🤖 Enhanced Research" for direct advanced research
    - Use "⚡ Quick Research" for fast results
 
-4. **Get Results**: 
+4. **Get Results**:
    - View comprehensive research report
    - Receive email delivery (if configured)
    - Access detailed trace logs for transparency
@@ -118,6 +125,7 @@ Our enhanced research system includes automatic quality evaluation:
 ## 🔧 Technical Architecture
 
 Built with:
+
 - **Frontend**: Gradio for interactive web interface
 - **Backend**: OpenAI Agents framework for modular AI system
 - **Quality Assurance**: Automated evaluation and optimization pipeline
@@ -127,6 +135,7 @@ Built with:
 ### Agent-Based Architecture
 
 The system uses specialized AI agents:
+
 - **Research Manager**: Orchestrates the entire research process
 - **Planner Agent**: Creates strategic search plans
 - **Search Agent**: Performs web searches
@@ -148,6 +157,7 @@ Try these example research queries:
 ## 🤝 Contributing
 
 We welcome contributions! Areas for improvement:
+
 - Additional research sources and tools
 - Enhanced evaluation criteria
 - New output formats
@@ -166,4 +176,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Built with ❤️ using OpenAI Agents, Gradio, and modern AI research techniques.** 
+**Built with ❤️ using OpenAI Agents, Gradio, and modern AI research techniques.**

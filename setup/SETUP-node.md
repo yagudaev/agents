@@ -9,7 +9,7 @@ PC users take note: if you are using WSL (which you will need to in Week 6), the
 ## Instructions for installing Node
 
 Check if you have node installed - should be v22 or later:  
-`!node --version` 
+`!node --version`
 
 Here are super clear installation instructions, courtesy of our AI friend:
 
@@ -44,8 +44,8 @@ In the terminal, run:
 This should give you a path to node running on your WSL subsystem. Suppose it's something like:  
 `/home/user/.nvm/versions/node/v22.18.0/bin`
 
-Then run this command, carefully replacing the path here with your one:   
-`!export PATH="/home/user/.nvm/versions/node/v22.18.0/bin:$PATH"`  
+Then run this command, carefully replacing the path here with your one:  
+`!export PATH="/home/user/.nvm/versions/node/v22.18.0/bin:$PATH"`
 
 Also this, again carefully replacing the path with your one:  
 `os.environ["PATH"] = "/home/user/.nvm/versions/node/v22.18.0/bin:" + os.environ["PATH"]`

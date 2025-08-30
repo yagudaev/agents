@@ -5,7 +5,7 @@
     |                 |
     |                 |
     |                 |
-   1|                 |*   
+   1|                 |*
     |                 |
     V                 V
 [Watchlists] 1 ------< [Stocks] >------* [MarketData]
@@ -144,6 +144,7 @@ This document provides a detailed explanation of the database schema designed fo
 
 This schema provides a robust foundation for scaling, accommodating future implementations such as audit trails and advanced reporting functionalities.
 
-``` 
+```
 
 All files above can be saved appropriately for later use as specified in your requirements.
+```

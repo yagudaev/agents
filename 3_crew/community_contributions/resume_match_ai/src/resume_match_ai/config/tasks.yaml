@@ -27,7 +27,6 @@ job_scraping_task:
   agent: job_scraper
   output_file: output/job_scraping_report.md
 
-
 job_matching_task:
   description: >
     Using the candidate’s resume and the list of job postings, calculate a match score (0–100)

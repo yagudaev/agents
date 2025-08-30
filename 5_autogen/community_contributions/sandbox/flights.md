@@ -46,7 +46,9 @@
    - **Notes:** Non-stop flight with Norse Atlantic Airways, offers affordable prices.
 
 ### Selected Flight Summary
+
 **Best Flight:**
+
 - **Airline:** Virgin Atlantic
 - **Departure:** JFK, New York
 - **Arrival:** LHR, London

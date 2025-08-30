@@ -8,8 +8,6 @@ trending_topics_task:
   # Provide a search query for SerperDevTool to fetch real-time data
   search_query: "trending book topics 2025"
 
-
-
 top_novelists_task:
   description: >
     Research leading novelists and list their upcoming book releases, including release dates and brief descriptions.
@@ -17,7 +15,6 @@ top_novelists_task:
     A concise Markdown summary of top novelists and their upcoming books.
   agent: top_novelists_agent
   output_file: output/top_novelists.md
-
 
 genre_research_task:
   description: >
