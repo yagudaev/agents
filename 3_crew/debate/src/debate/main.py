@@ -1,8 +1,6 @@
 #!/usr/bin/env python
-import sys
 import warnings
 
-from datetime import datetime
 
 from debate.crew import Debate
 
@@ -13,14 +11,15 @@ warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 # Replace with inputs you want to test with, it will automatically
 # interpolate any tasks and agents information
 
+
 def run():
     """
     Run the crew.
     """
     inputs = {
-        'motion': 'There needs to be strict laws to regulate LLMs',
+        "motion": "Canada should become part of the United States as Trump offered",
     }
-    
+
     try:
         result = Debate().crew().kickoff(inputs=inputs)
         print(result.raw)
