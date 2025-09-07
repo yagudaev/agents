@@ -1,6 +1,6 @@
 find_trending_companies:
   description: >
-    Find the top trending companies in the news in {sector} by searching the latest news. Find new companies that you've not found before.
+    Find the top trending companies publicly traded companies in the news in {sector} by searching the latest news as of {today}. Find new companies that you've not found before.
   expected_output: >
     A list of trending companies in {sector}
   agent: trending_company_finder
@@ -8,9 +8,10 @@ find_trending_companies:
 
 research_trending_companies:
   description: >
-    Given a list of trending companies, provide detailed analysis of each company in a report by searching online
+    Given a list of trending companies, provide detailed analysis of each company in a report by searching online as of {today}.
   expected_output: >
-    A report containing detailed analysis of each company
+    A report containing detailed analysis of each company, look at the past, present and future price of the company carefully modelling and predicting the price on a short (1-3 months), medium (1 year) and long (5 years) terms.
+    Consider strategic value over a 10 year period as well and why a company is worth more than its price.
   agent: financial_researcher
   context:
     - find_trending_companies
@@ -18,9 +19,10 @@ research_trending_companies:
 
 pick_best_company:
   description: >
-    Analyze the research findings and pick the best company for investment.
+    Analyze the research findings and pick the best company for investment as of {today}.
+    Consider the long term value of the company for a period of 10 years and why it is worth more than its price.
     Send a push notification to the user with the decision and 1 sentence rationale.
-    Then respond with a detailed report on why you chose this company, and which companies were not selected.
+    Then respond with a detailed report on why you chose this company, and which companies were not selected. Explain in detail why it is a good long term investment and projected returns
   expected_output: >
     The chosen company and why it was chosen; the companies that were not selected and why they were not selected.
   agent: stock_picker

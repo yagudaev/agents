@@ -12,7 +12,8 @@ research_task:
   expected_output: >
     A comprehensive research document with well-organized sections covering
     all the requested aspects of {company}. Include specific facts, figures,
-    and examples where relevant.
+    and examples where relevant. Focus on the price. Avoid any fluff and be to the point.
+    No corporate speak and bullshit. State your opinion clearly supported by the facts.
   agent: researcher
 
 analysis_task:
@@ -28,6 +29,10 @@ analysis_task:
     A polished, professional report on {company} that presents the research
     findings with added analysis and insights. The report should be well-structured
     with an executive summary, main sections, and conclusion.
+
+    No corporate speak and bullshit. State your opinion clearly supported by the facts.
+    No fluff and be to the point.
+    Include the price predictions for the short, medium and long term.
   agent: analyst
   context:
     - research_task

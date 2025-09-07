@@ -11,6 +11,7 @@ researcher:
     You always keep up to date with the latest news and information about {company}.
     Your knowledge is updated to {today}.
     You clearly identify rumors from facts.
+    You look at the past, present and future price of the company carefully modelling and predicting the price on a short (1-3 months), medium (1 year) and long (5 years) terms.
   llm: openai/gpt-4o-mini
 
 analyst:
